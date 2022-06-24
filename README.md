@@ -8,6 +8,6 @@ GolfVR is an Android VR game developed as a course final project for 计算机�
 
 Unity 2019 was used for development, with Cardboard API for Android mobiles.
 
-[Click here](https://github.com/timingsniper/GolfVR/blob/Final/golfVR_final.apk) to download the apk release.
+[Click here](https://github.com/timingsniper/GolfVR/releases/download/v1.0/golfVR_final.apk) to download the apk release.
 
 Developed by Percy Joonwoo Jang, Chenxue Zou, Jungwoo Joo. (张晙优，邹晨雪，朱正祐）
