@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour {
 		// multiplying it by 'speed' - our public player speed that appears in the inspector
 		rb.AddForce (movement * speed);
 
-		if(transform.position.y <= -500)
+		if(transform.position.y <= -50)
         {
 			winTextObject.text = "Off Course!";
 			resetButton.SetActive(true);
