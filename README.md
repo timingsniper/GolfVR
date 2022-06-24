@@ -1,8 +1,8 @@
 # GolfVR
 
-https://github.com/timingsniper/GolfVR/blob/Final/Screenshots/playScreen1.png
+![alt text](https://github.com/timingsniper/GolfVR/blob/Final/Screenshots/playScreen1.png)
 
-https://github.com/timingsniper/GolfVR/blob/Final/Screenshots/phonePlay1.jpg
+![alt text](https://github.com/timingsniper/GolfVR/blob/Final/Screenshots/phonePlay1.jpg)
 
 GolfVR is an Android VR game developed as a course final project for 计算机图形学@Peking University 2021-2022 2nd sem.
 
