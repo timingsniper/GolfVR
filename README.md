@@ -10,4 +10,4 @@ Unity 2019 was used for development, with Cardboard API for Android mobiles.
 
 [Click here](https://github.com/timingsniper/GolfVR/blob/Final/golfVR_final.apk) to download the apk release.
 
-Developed by Percy Joonwoo Jang, Chenxue Zou, Jungwoo Joo.
+Developed by Percy Joonwoo Jang, Chenxue Zou, Jungwoo Joo. (张晙优，邹晨雪，朱正祐）
