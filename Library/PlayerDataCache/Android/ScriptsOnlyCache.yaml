@@ -3,20 +3,18 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - CamFollow
     - CameraController1
+    - Check
     - FollowPlayer
     - IgnoreRotation
     - MouseLook
     - PlayerController
     - Rotate
     - SetSortingOrder
+    - TimeSpeed
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
-    Unity.Mobile.AndroidLogcat.Editor.dll:
-    - Unity.Android.Logcat.AndroidLogcatManager
-    Unity.PlasticSCM.Editor.dll:
-    - Unity.PlasticSCM.Editor.PlasticWindow
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.XR.Interaction.Toolkit.Editor.dll:
@@ -29,6 +27,12 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.SpatialTracking.dll:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -57,6 +61,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -68,26 +76,42 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 12180}
+      Script: {instanceID: 11672}
     - Class: 114
-      Script: {instanceID: 12418}
+      Script: {instanceID: 12016}
     - Class: 114
-      Script: {instanceID: 12904}
+      Script: {instanceID: 12346}
     - Class: 114
-      Script: {instanceID: 13318}
+      Script: {instanceID: 12466}
     - Class: 114
-      Script: {instanceID: 14344}
+      Script: {instanceID: 12704}
     - Class: 114
-      Script: {instanceID: 14372}
+      Script: {instanceID: 12864}
     - Class: 114
-      Script: {instanceID: 14518}
+      Script: {instanceID: 13196}
     - Class: 114
-      Script: {instanceID: 23498}
+      Script: {instanceID: 13612}
     - Class: 114
-      Script: {instanceID: 81260}
+      Script: {instanceID: 13730}
     - Class: 114
-      Script: {instanceID: 254672}
+      Script: {instanceID: 14642}
+    - Class: 114
+      Script: {instanceID: 14670}
+    - Class: 114
+      Script: {instanceID: 14776}
+    - Class: 114
+      Script: {instanceID: 14816}
+    - Class: 114
+      Script: {instanceID: 15394}
+    - Class: 114
+      Script: {instanceID: 15524}
+    - Class: 114
+      Script: {instanceID: 32154}
+    - Class: 114
+      Script: {instanceID: 32160}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -104,6 +128,12 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 1818360609
       Script: {instanceID: 0}
@@ -300,6 +330,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputActionEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 1113f944707d2e05658a4811d41cc6a2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CamFollow
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -558,6 +594,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.UI
     className: BaseInputOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IgnoreRotation
   - hash:
       serializedVersion: 2
       Hash: c1f5356fcd27668ddc25078e27f9828d
@@ -872,6 +914,12 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: 1149f34d92bd6fc527dba778d02aae5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FollowPlayer
+  - hash:
+      serializedVersion: 2
       Hash: 07e220085092f670a884f761e247d47b
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
@@ -980,23 +1028,17 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 1149f34d92bd6fc527dba778d02aae5d
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: FollowPlayer
+    className: TimeSpeed
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: IgnoreRotation
-  - hash:
-      serializedVersion: 2
-      Hash: 1113f944707d2e05658a4811d41cc6a2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CamFollow
+    className: Check
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/UnityApps/GolfVR/draftOne.apk
+  playerPath: C:/Users/UnreachableFlash/Desktop/golfvr.apk
