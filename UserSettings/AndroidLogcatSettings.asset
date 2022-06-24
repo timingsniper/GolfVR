@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "R5CR92KFZ4V",
     "m_SelectedPackage": {
         "deviceId": "R5CR92KFZ4V",
-        "name": "com.DefaultCompany.GolfVR",
-        "processId": 32267,
+        "name": "com.tuxingxue.GolfVR",
+        "processId": 1341,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -60,6 +60,24 @@
             "deviceId": "R5CR92KFZ4V",
             "name": "com.DefaultCompany.GolfVR",
             "processId": 32267,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR92KFZ4V",
+            "name": "com.DefaultCompany.GolfVR",
+            "processId": 20136,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR92KFZ4V",
+            "name": "com.DefaultCompany.GolfVR",
+            "processId": 12010,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CR92KFZ4V",
+            "name": "com.tuxingxue.GolfVR",
+            "processId": 1341,
             "exited": false
         }
     ],
